@@ -1,14 +1,44 @@
 # first tree: technologies
-Programming Language, CI .is Technology
+Programming Language, CI, Testing .is Technology
 
-Python, C++ .is Programming Language
-Travis .is CI
+## PL
+Python, C++, Ruby, JavaScript, Go .is Programming Language
+Cython .is Python
+
+## CI
+Travis, AppVeyor (Windows), CircleCI, Jenkins, Hound, Shippable CI .is CI
+
+## Testing
+unittest, nose, tox, pytest .is Testing
+C++:gtest .is Testing
+JavaSctipt:QUnit .is Testing
+Go:testing .is Testing
+
 
 # second tree: projects
-Data Science .is Project
-xgboost, sklearn .is Data Science
+Data Science, Design, DevOps tools, Web frameworks .is Project
+
+xgboost, scikit-learn, gensim, theano .is Data Science
+
+bootstrap .is Design
+
+ansible, grafana .is DevOps tools
+
+flask, django .is Web frameworks
+
 
 # relations
-xgboost .uses Travis, Python, C++
+## Data Science
+xgboost .uses Python, C++, nose, unittest, C++:gtest, Travis
+scikit-learn .uses Python, Cython, unittest, Travis, AppVeyor (Windows), CircleCI
+gensim .uses Python, unittest, Travis, AppVeyor (Windows)
+theano .uses Python, C++, unittest, Travis, Jenkins
 
-sklearn .uses Travis, Python
+## Design
+bootstrap .uses Ruby, JavaScript, Travis, Hound, JavaSctipt:QUnit
+
+## DevOps
+ansible .uses Python, unittest, tox, pytest, Shippable CI
+grafana .uses JavaScript
+
+## Web
