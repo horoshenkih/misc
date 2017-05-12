@@ -5,6 +5,8 @@
 ## Useful tools
 ### Command line
 [instant coding answers via the command line](https://github.com/gleitz/howdoi)
+
+[The Fuck](https://github.com/nvbn/thefuck)
 ### Telegram
 [Skeddy](https://skeddy.me/)
 ## Recipes
