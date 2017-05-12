@@ -6,8 +6,6 @@
 ### Command line
 [instant coding answers via the command line](https://github.com/gleitz/howdoi)
 ### Telegram
-[Alert Bot](http://botsfortelegram.com/project/alert-bot/)
-
 [Skeddy](https://skeddy.me/)
 ## Recipes
 ### Linux
