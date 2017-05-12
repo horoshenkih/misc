@@ -8,6 +8,7 @@
 ### Telegram
 [Alert Bot](http://botsfortelegram.com/project/alert-bot/)
 
+[Skeddy](https://skeddy.me/)
 ## Recipes
 ### Linux
 [set operations on files](https://unix.stackexchange.com/questions/11343/linux-tools-to-treat-files-as-sets-and-perform-set-operations-on-them)
